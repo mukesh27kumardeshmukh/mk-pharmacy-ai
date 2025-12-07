@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import AIChat from "@/components/AIChat";
+import MedicineSearch from "@/components/MedicineSearch";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -9,6 +10,7 @@ const Index = () => {
       <div data-chat-section className="flex-1">
         <AIChat />
       </div>
+      <MedicineSearch />
       <Footer />
     </div>
   );
